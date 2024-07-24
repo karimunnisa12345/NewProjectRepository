@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T15:05:43 IST" name="Default suite" finished-at="2024-07-22T15:06:22 IST" duration-ms="38362">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T15:05:43 IST" name="Default test" finished-at="2024-07-22T15:06:22 IST" duration-ms="38362">
+      <class name="testng.DataProdiverDemo">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testng.DataProdiverDemo@623a8092]" started-at="2024-07-22T15:05:43 IST" name="setUp" finished-at="2024-07-22T15:05:59 IST" duration-ms="15738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginOperation(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProdiverDemo@623a8092]" started-at="2024-07-22T15:05:59 IST" name="loginOperation" data-provider="testData" finished-at="2024-07-22T15:06:07 IST" duration-ms="8154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="loginOperation(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProdiverDemo@623a8092]" started-at="2024-07-22T15:06:07 IST" name="loginOperation" data-provider="testData" finished-at="2024-07-22T15:06:15 IST" duration-ms="7438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+        <test-method signature="loginOperation(java.lang.String,java.lang.String)[pri:0, instance:testng.DataProdiverDemo@623a8092]" started-at="2024-07-22T15:06:15 IST" name="loginOperation" data-provider="testData" finished-at="2024-07-22T15:06:22 IST" duration-ms="6823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOperation -->
+      </class> <!-- testng.DataProdiverDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

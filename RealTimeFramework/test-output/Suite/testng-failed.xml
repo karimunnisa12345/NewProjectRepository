@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="appURL" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
+  <listeners>
+    <listener class-name="testng.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="loginTest(failed)">
+    <parameter name="password" value="admin123"/>
+    <parameter name="username" value="Admin"/>
+    <classes>
+      <class name="testng.LoginTestcase">
+        <methods>
+          <include name="validateLoginByText"/>
+          <include name="validateLoginByURL"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testng.LoginTestcase -->
+    </classes>
+  </test> <!-- loginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
